@@ -3,9 +3,6 @@ const message = blockquote.querySelector("h1");
 const author = blockquote.querySelector("p");
 const refreshBtn = blockquote.querySelector("a");
 
-// Remove underline for link
-refreshBtn.style.textDecoration = "none";
-
 // Where the quotes are stored
 const quotes = [
   {
